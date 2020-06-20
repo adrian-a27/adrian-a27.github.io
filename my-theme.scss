@@ -1,10 +1,12 @@
 // Material Theming
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-
-$mdc-typography-family: 'Lexend Deca';
-
 @use "@material/theme" with (
-  $primary: #FEDBD0,
-  $on-primary: #442C2E
+  $primary: #9c27b0,
+  $secondary: #76ff03,
+  $background: #fff,
 );
+
+@use "material-components-web";
+
+
+$mdc-typography-family: 'Arial';
