@@ -1,0 +1,7 @@
+{
+  "name": "To-do list!",
+  "description": "It's a to-do list!",
+  "dependencies": {
+    "material-components-web": "^6.0.0"
+  }
+}
