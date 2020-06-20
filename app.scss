@@ -2,8 +2,9 @@
 @import "my-theme";
 
 // Import MDC Web components
-@use "@material/button";
-@include button.core-styles;
+@use "material-components-web/material-components-web";
+@import "@material/typography/mdc-typography";
+@import "@material/button/mdc-button";
 
 // Import your components for your application
 @import "my-components";
