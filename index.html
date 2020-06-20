@@ -1,7 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="bundle.css">
+        <title>To-do List</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"href="bundle.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
-  <body>Hello World</body>
+
+  <body>
+    <button class="mdc-button--outlined">
+      <div class="mdc-button__ripple" data-mdc-auto-init="MDCRipple"></div>
+      <span class="mdc-button__label">Outlined Button</span>
+    </button>
+
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="bundle.js"></script>
+    <script>
+      window.mdc.autoInit();
+    </script>
+  </body>
 </html>
