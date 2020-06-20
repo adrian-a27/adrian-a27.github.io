@@ -1,5 +1,4 @@
 {
-  "name": "To-do List",
   "version": "0.1.0",
   "main": "index.js",
   "description": "It's a to-do list!",
@@ -23,7 +22,10 @@
     "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
-    "material-components-web": "^6.0.0"
+    "@material/auto-init": "^6.0.0",
+    "@material/button": "^6.0.0",
+    "@material/ripple": "^6.0.0",
+    "@material/typography": "^6.0.0"
   },
   "engines": {
     "node": "10.x"
