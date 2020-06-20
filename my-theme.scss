@@ -3,3 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 $mdc-typography-family: 'Lexend Deca';
+
+@use "@material/theme" with (
+  $primary: #FEDBD0,
+  $on-primary: #442C2E
+);
